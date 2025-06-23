@@ -57,11 +57,11 @@ foreign key (certificate_id) references Certificates(certificate_id)
 
 create table blogpost(
 post_id serial primary key,
-baslik varchar(250),
-icerik text,
-yayin_taihi timestamp default current_date,
-yazar serial not null,
-foreign key (yazar) references Members (user_id)
+title varchar(250),
+content text,
+publication_date timestamp default current_date,
+author serial not null,
+foreign key (author) references Members (user_id)
 )
 
 
