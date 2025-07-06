@@ -128,7 +128,7 @@ Stores blog posts written by users.
 
 ## 🗂 Database Schema
 
-To better understand the database structure and relationships, refer to the **`Database Schema`** file included in the project. It provides a visual overview of all tables and their connections.
+To better understand the database structure and relationships, refer to the **`Database_Schema`** file included in the project. It provides a visual overview of all tables and their connections.
 
 ---
 
