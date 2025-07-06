@@ -138,4 +138,4 @@ To better understand the database structure and relationships, refer to the **`D
 2. Run the `proje.sql` file using the PostgreSQL terminal or GUI (e.g., PgAdmin):
 
 ```bash
-psql -U postgres -d your_database_name -f proje.sql
+psql -U postgres -d Database -f proje.sql
